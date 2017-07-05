@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "mirosln";
+    src: url("/gart/assets/fonts/mirosln.ttf");
+}
+
+@title:#098da6;
+@maintext:#515151;
+@witharrow:#bc3184;
+@topboxtext:#a08fb3;
+
+
+h1, h2, h3, h4, h5, h6, p, form, .nomargin, ul, ol {
+    margin:0;
+    padding:0;
+}
+ul {
+    list-style:none;
+}
+ol {
+    list-style:none;
+}
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+body {
+    background-color:#ebebeb;
+    font-family: "Sans";
+    margin: 0;
+
+}
+.pageTitle {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#480804+0,3a0000+50,6f0000+100,6e0000+100 */
+    background: rgb(72,8,4); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(72,8,4,1) 0%, rgba(58,0,0,1) 50%, rgba(111,0,0,1) 100%, rgba(110,0,0,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(72,8,4,1) 0%,rgba(58,0,0,1) 50%,rgba(111,0,0,1) 100%,rgba(110,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(72,8,4,1) 0%,rgba(58,0,0,1) 50%,rgba(111,0,0,1) 100%,rgba(110,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#480804', endColorstr='#6e0000',GradientType=1 ); /* IE6-9 */
+
+
+    text-align:left;
+    padding:20px 57px;
+
+    .logo {
+        position: relative;
+        overflow: hidden;
+        height: 200px;
+        width: 100%;
+        img {
+            height: 200px;
+            position: absolute;
+            margin: auto;
+            top:9999px;
+            bottom:9999px;
+            left:-9999px;
+            right:-9999px;
+            padding: 0 10px;
+
+        }
+
+    }
+    .header {
+        width: 100%;
+        margin:0 50px;
+        dispaly:inline-block;
+        h1 {
+            padding-left: 40px;
+            float: left;
+            width: 35%;
+            line-height: 1;
+            font-size: 40px;
+            font-weight: 500;
+            color: white;
+            font-family: "mirosln";
+            text-transform: uppercase;
+            span {
+                font-size: 150px;
+
+            }
+        }
+        p {
+            text-transform: uppercase;
+            margin: 33px 0;
+            padding: 0 5px;
+            border-left: 4px solid white;
+            float: right;
+            color: white;
+            font-weight: 500;
+            width: 65%;
+            font-size: 50px;
+        }
+    }
+
+
+}
+.image-box {
+    .image {
+        position: relative;
+        height:300px;
+        overflow: hidden;
+        img {
+            position: absolute;
+            width: 100%;
+            margin: auto;
+            top:9999px;
+            bottom:9999px;
+            left:-9999px;
+            right:-9999px;
+            padding: 0 10px;
+        }
+    }
+}
+.description {
+    margin:40px 90px;
+
+    h2 {
+        color:@title;
+        font-size: 30px;
+        margin: 10px 0 20px 0px;
+
+    }
+
+    .text {
+
+        p {
+            margin-bottom: 30px;
+            color:@maintext;
+            font-size: 17px;
+            letter-spacing: 1px;
+        }
+    }
+}
